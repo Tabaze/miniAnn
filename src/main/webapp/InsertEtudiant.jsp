@@ -22,6 +22,7 @@ List<Departement> dep = dd.getAll();
 		<header>Ajouter un Etudiant</header>
 
 		<form action="etudiant-serv" method="post">
+		<input type="hidden" value="insert" name="choix">
 			<div class="form first">
 				<div class="details personal">
 					<span class="title">Information Personnelle</span>
